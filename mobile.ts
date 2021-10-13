@@ -11,6 +11,14 @@ export class Mobile
 
     constructor()
     {
+        this.name;
+        this.model;
+        this.trademark,
+        this.sdSize;
+        this.color;
+        this.is5G;
+        this.cameraNumber;
+        this.price;
 
     }
 
