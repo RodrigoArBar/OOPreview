@@ -1,0 +1,17 @@
+"use strict";
+exports.__esModule = true;
+var mobile_1 = require("./mobile");
+var movil1 = new mobile_1.Mobile;
+movil1.name = "Nokia3210";
+var movil2 = new mobile_1.Mobile;
+movil2.name = "iPhone3G";
+var movil3 = new mobile_1.Mobile;
+movil3.name = "Samsung Galaxy 10";
+console.log(movil1);
+console.log(movil2);
+console.log(movil3);
+movil1.cameraNumber = 4;
+movil1.is5G = true;
+console.log(movil1);
+console.log(movil2);
+console.log(movil3);
