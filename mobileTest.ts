@@ -1,24 +1,23 @@
-import { Mobile } from './mobile';
+import {Mobile} from './mobile';
 
 let movil1 = new Mobile;
-movil1.name ="Nokia3210";
+movil1.setName("Nokia3210")
 
 let movil2 = new Mobile;
-movil2.name = "iPhone3G"
+movil2.setName("iPhone3G")
 
 
 let movil3 = new Mobile;
-movil3.name = "Samsung Galaxy 10"
+movil3.setName("Samsung Galaxy 10")
 
-console.log(movil1);
-console.log(movil2);
-console.log(movil3)
+movil1.print();
+movil2.print();
+movil3.print();
 
 
-movil1.cameraNumber = 4;
-movil1.is5G = true;
+movil1.setCameraNumber(4);
+movil1.setIs5G(true);
 
-console.log(movil1);
-console.log(movil2);
-console.log(movil3)
-
+movil1.print();
+movil2.print();
+movil3.print();
