@@ -1,4 +1,4 @@
-import {Mobile} from './mobile';
+import { Mobile } from './mobile';
 
 let movil1 = new Mobile;
 movil1.setName("Nokia3210")
