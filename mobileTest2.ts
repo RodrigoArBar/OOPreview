@@ -23,3 +23,10 @@ movil2.print();
 movil3.print();
 
 
+
+let mobiles: Mobile[] = [movil1, movil2, movil3];
+
+for(let i = 0; i < mobiles.length; i++)
+{
+    mobiles[i].print();
+}
